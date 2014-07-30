@@ -54,6 +54,25 @@ body {
 .container {
 	font-family: Open Sans, Helvetica, Trebuchet MS, Arial, sans-serif;
 }
+
+/* main content */
+.main-content a {
+  text-decoration: none;
+}
+.main-content a:link { /* unvisited link - blue */
+    color: #0000FF;
+}
+.main-content a:visited { /* visited link - purple */
+    color: #800080;
+}
+.main-content a:hover { /* mouse over link - green */
+    color: #00FF00;
+}
+.main-content a:active { /* selected link - red */
+    color: #FF0000;
+}
+
+/* footer */
 .footer-text {
   padding-top: 16px;
   font-family: Open Sans, Helvetica, Trebuchet MS, Arial, sans-serif;
@@ -70,14 +89,6 @@ body {
 }
 .mobile-footer .footer-text {
 	padding-top: 10px;
-}
-
-.main-content a {
-  text-decoration: none;
-}
-.main-content a:hover{
-  text-decoration: none;
-  color: #0000FF;
 }
 
 /* Images
